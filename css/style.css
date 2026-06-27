@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     /* font-family: "Bebas Neue", sans-serif; */
+     font-weight: 500;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.mainContain{
+    width: 1320px;
+    background-color:rgb(245, 245, 245);
+}
+
+a{
+
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+
+.heder{
+    border: 1px solid #ddd;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+
+}
+ 
+.contact1{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+} 
+
+.contact2 ul{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+}
+.mainHeder2{
+    display: flex;
+    justify-content: space-around;
+    padding: 30PX;
+    font-size: 30px;
+    /* position: relative; */
+}
+
+.serch input{
+    /* position: absolute; */
+    height: 28px;
+    width: 350px;
+    /* top: 50px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+}
+
+.topLeft{
+    position: relative;
+    padding: 20px;
+}
+
+.topLeft1{
+    border: 1px solid #ddd;
+    width: 20%;
+    text-align:left;
+    padding: 15px;
+}
+.topLeft1 ul li{
+    padding: 8px;
+    
+}
+.topLeft1 ul li a i{
+    padding-right: 30px;
+    
+}
+
+.topheder ul{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    gap: 30px;
+}
+
+.hederh1{
+      position: absolute;
+    background: rgba(245, 190, 252, 0.473);
+    left: 51%;
+    top: 215px;
+    transform: translate(-50%, -50%);
+    height: 350px;
+    width: 745px;
+}
+
+.hederh1 img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hederh11{
+    padding: 100px;
+}
+.hederh11 p{
+    padding: 20px 0;
+}
+.hederh11 button{
+    padding: 10px 25px;
+    background:skyblue
+}
+
+.toplast{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    background: rgb(250, 181, 181);
+    height: 150px;
+    width: 230px;
+}
+.maintop h3 {
+    color: red;
+    padding: 5px;
+
+}
+.maintop h2 {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+.toplast11{
+    font-size: 10px;
+    padding: 20px;
+    
+}
+.toplast img{
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    right: 10px;
+}
+
+.toplast11 a{
+    position: absolute;
+    padding: 20px 5px;
+}
+.toplast2{
+    position: absolute;
+    right: 30px;
+    top: 240px;
+    background: green;
+    height: 150px; 
+    width: 230px;
+}
+
+.toplast22{
+    font-size: 10px;
+    padding: 20px;
+}
+
+.toplast22 img {
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+ .toplast22 a{
+    position: absolute;
+    color: rgb(0, 255, 106);
+    padding: 20px 5px;
+    /* background: gray; */
+}
