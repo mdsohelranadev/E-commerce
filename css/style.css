@@ -182,3 +182,41 @@ ul li {
     padding: 20px 5px;
     /* background: gray; */
 }
+
+.middle0{
+       border: 1px solid #ddd ;  
+       height: 60px; 
+       width: 1200px;
+       margin: 0px auto;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: relative;    
+}
+.middle1 i{
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.middle2 i{
+    position: absolute;
+    left: 32%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.middle3 i{
+    position: absolute;
+    left: 58%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.middle4 i{
+    position: absolute;
+    left: 82%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
