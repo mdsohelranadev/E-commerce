@@ -48,10 +48,22 @@ ul li {
 }
 .mainHeder2{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     padding: 30PX;
     font-size: 30px;
     /* position: relative; */
+}
+
+.topRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    /* padding: 10px; */
+}
+.topRight a:hover{
+    color: rgb(255, 0, 0);
 }
 
 .serch input{
@@ -83,8 +95,11 @@ ul li {
     padding-right: 30px;
     
 }
+.topLeft ul li a:hover{
+    color: red;
+}
 
-.topheder ul{
+ .topheder ul{
     position:absolute;
     display: flex;
     justify-content: center;
@@ -92,6 +107,10 @@ ul li {
     left: 50%;
     transform: translate(-50%,-50%);
     gap: 30px;
+}
+
+.topheder ul li a:hover{
+    color: red;
 }
 
 .hederh1{
@@ -219,4 +238,71 @@ ul li {
     left: 82%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+
+.offerTime{
+    border: 1px solid #ddd;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.offerTime h3, input{
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.offerTime button{
+    padding: 5px;
+    margin-top: 10px;
+    background: rgb(0, 4, 255);
+    color: aliceblue;
+    height: 30px;
+    width: 130px;
+}
+
+.time{
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    gap: 10px;
+}
+.time div:nth-child(1){
+    color:  rgb(0, 4, 255);;
+    text-align: center;
+    align-items: center;
+    background:#ddd;
+    height: 45px;
+    width: 40px;
+    font-weight: 900;
+}
+.time div:nth-child(2 ){
+    color:  rgb(0, 4, 255);;
+    text-align: center;
+    align-items: center;
+    background:#ddd;
+    height: 45px;
+    width: 40px;
+    font-weight: 900;
+}
+.time div:nth-child(3){
+    color:  rgb(0, 4, 255);;
+    text-align: center;
+    align-items: center;
+    background: #ddd;
+    height: 45px;
+    width: 40px;
+    font-weight: 900;
+}
+.time div:nth-child(4){
+    color:  rgb(0, 4, 255);;
+    text-align: center;
+    align-items: center;
+    background: #ddd;
+    height: 45px;
+    width: 40px;
+    font-weight: 900;
 }
