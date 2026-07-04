@@ -113,9 +113,10 @@ ul li {
     gap: 30px;
 }
 
-.topheder ul li a:hover{
+
+
+ .topheder ul li a:hover{
     color: red;
-    background: teal;
 }
 
 .hederh1{
@@ -532,7 +533,7 @@ ul li {
 }
 
 .footer2,.footer3,.footer4, ul li a:hover{
-    color: red;
+    color: rgb(255, 0, 191);
 }
 
 .footer2,.footer3,.footer4 h4{
