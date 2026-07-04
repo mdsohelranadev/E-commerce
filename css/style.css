@@ -96,6 +96,9 @@ ul li {
     padding-right: 30px;
     
 }
+.topLeft1 ul li a{
+
+}
 .topLeft ul li a:hover{
     color: red;
 }
@@ -335,7 +338,7 @@ ul li {
 .offerTime button{
     padding: 5px;    
     margin-top: 10px;
-    background: rgb(76, 79, 255);
+    background: rgb(0, 174, 255);
     color: aliceblue;
     height: 30px;
     width: 130px;
@@ -354,7 +357,14 @@ ul li {
     text-align: left;
     padding: 10px;
     line-height: 18px;
-    
+}
+.dolar1 {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 5px;
+}
+.dolar h6{
+    color: #000;
 }
 .product2{
     border: 1px solid #ddd  ;
@@ -363,6 +373,15 @@ ul li {
     text-align: left;
     padding: 10px;
     line-height: 18px;
+}
+
+.dolar2{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 5px;
+}
+.dolar2 h6{
+    color: #cccccc;
 }
 .product3{
     
@@ -373,7 +392,14 @@ ul li {
     padding: 10px;
     line-height: 18px;
 }
-
+.dolar2{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 5px;
+}
+.dolar2 h6{
+    color: #cccccc;
+}
 .product4{
     border: 1px solid #ddd  ;
     height: 180px;  
@@ -393,6 +419,14 @@ ul li {
     
 }
 
+.dolar2{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 5px;
+}
+.dolar2 h6{
+    color: #cccccc;
+}
 .offerProduct{
     display: flex;
     justify-content: space-around;
@@ -406,6 +440,8 @@ ul li {
     background: tomato;
     border-radius: 5px;
     padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 .offerProduct2{
     height:100px ;
@@ -414,6 +450,9 @@ ul li {
     border-radius: 5px;
     border-radius: 5px;
     padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
 }
 .offerProduct3{
     height:100px ;
@@ -422,6 +461,8 @@ ul li {
     border-radius: 5px;
     border-radius: 5px;
     padding: 15px;
+    display: flex;
+    justify-content: space-between
 }
 .offerProduct4{
     height:100px ;
@@ -430,6 +471,8 @@ ul li {
     border-radius: 5px;
     border-radius: 5px;
     padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 .offerProduct button{
     margin: 15px 0;
@@ -439,3 +482,60 @@ ul li {
       background: blue;
       color: #ddd
 }
+
+
+
+.footerup{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20PX 30px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+    
+}
+
+.footer1 a  {
+    font-size: 30px;
+
+}   
+.footer1 p{
+    padding-top: 30px;
+}
+
+.footer2 h4{
+    font-style: bold;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.footer2 ul li{
+    line-height: 20px;
+}
+.footer3 h4{
+    font-style: bold;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.footer3 ul li{
+    line-height: 20px;
+}
+.footer4 h4{
+    font-style: bold;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.footer4 ul li{
+    line-height: 20px;
+}
+
+.footer2,.footer3,.footer4,ul li a {
+    transition: 0.2s;
+}
+
+.footer2,.footer3,.footer4, ul li a:hover{
+    color: red;
+}
+
+.footer2,.footer3,.footer4 h4{
+    color: #000;
+}
+
